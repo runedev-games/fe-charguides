@@ -1,7 +1,7 @@
 const characters = [
 
 {
-    portrait: "images/dorothea.png",
+    portrait: "dorothea.png",
     
     name: "Dorothea",
 
