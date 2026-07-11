@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fire Emblem: Three Houses Guide</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Fire Emblem: Three Houses Guide</h1>
+
+    </header>
+
+    <main>
+
+        <!-- Left Navigation -->
+        <aside id="sidebar">
+
+            <h2>Characters</h2>
+
+            <div id="character-list">
+
+                <!-- JavaScript will create the buttons here -->
+
+            </div>
+
+        </aside>
+
+        <!-- Main Content -->
+        <section id="content">
+
+            <!-- Portrait -->
+            <img id="portrait" src="" alt="Character Portrait">
+
+            <h2 id="name">Select a Character</h2>
+
+            <p><strong>House:</strong> <span id="house"></span></p>
+
+            <p><strong>Birthday:</strong> <span id="birthday"></span></p>
+
+            <p><strong>Crest:</strong> <span id="crest"></span></p>
+
+            <p><strong>Starting Class:</strong> <span id="baseClass"></span></p>
+
+            <hr>
+
+            <h3>Personal Ability</h3>
+
+            <div id="personalAbility"></div>
+
+            <h3>Starting Abilities</h3>
+
+            <ul id="startingAbilities"></ul>
+
+            <hr>
+
+            <h3>Base Stats</h3>
+
+            <table id="statsTable">
+
+                <tr>
+                    <th>HP</th>
+                    <th>Str</th>
+                    <th>Mag</th>
+                    <th>Dex</th>
+                    <th>Spd</th>
+                    <th>Lck</th>
+                    <th>Def</th>
+                    <th>Res</th>
+                    <th>Cha</th>
+                </tr>
+
+                <tr id="statsRow">
+
+                </tr>
+
+            </table>
+
+            <h3>Growth Rates</h3>
+
+            <table id="growthTable">
+
+                <tr>
+                    <th>HP</th>
+                    <th>Str</th>
+                    <th>Mag</th>
+                    <th>Dex</th>
+                    <th>Spd</th>
+                    <th>Lck</th>
+                    <th>Def</th>
+                    <th>Res</th>
+                    <th>Cha</th>
+                </tr>
+
+                <tr id="growthRow">
+
+                </tr>
+
+            </table>
+
+            <hr>
+
+            <h3>Inventory</h3>
+
+            <ul id="inventory"></ul>
+
+            <h3>Combat Arts</h3>
+
+            <ul id="combatArts"></ul>
+
+            <h3>Skill Levels</h3>
+
+            <div id="skillLevels"></div>
+
+        </section>
+
+    </main>
+
+    <script src="data/characters.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
